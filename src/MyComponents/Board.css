@@ -1,6 +1,5 @@
 .board{
       display: grid;
-      border-style: solid;
 
       grid-template-columns: repeat(3,6rem);
       justify-content: center;

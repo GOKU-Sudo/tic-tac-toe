@@ -7,3 +7,17 @@ body{
   background-color: aquamarine;
   font-family: "Poppins",sans-serif;
 }
+
+.container{
+
+  height: 100vh;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
