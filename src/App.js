@@ -79,7 +79,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App container">
       <ScoreBoard scores={scores} xPlaying={xPlaying}/>
       <Board board={board} onClick={ gameOver? resetBoard: handleClicked}/>
       <ResetButton resetBoard={resetBoard}/>
